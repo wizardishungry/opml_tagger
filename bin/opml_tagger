@@ -3,8 +3,11 @@
 $:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
 
 require 'opml_tagger'
+require 'optparse'
 
 
+OpmlTagger::OptionParser.parse(ARGV)
+exit
 if ARGV.empty?
     puts "#{$0} do something";
 else
