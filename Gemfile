@@ -12,4 +12,5 @@ group :development do
   gem "rcov", ">= 0"
   gem "safari-cookiejar", ">= 0"
   gem "keychain_services", "~> 0.1.0"
+  gem "OptionParser", "~> 0.5.1"
 end
