@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Williams"]
   s.date = %q{2010-12-28}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{longer description of your gem}
   s.email = %q{jonathan.williams@gmail.com}
   s.executables = ["opml_tagger", "opml_tagger"]
   s.extra_rdoc_files = [
